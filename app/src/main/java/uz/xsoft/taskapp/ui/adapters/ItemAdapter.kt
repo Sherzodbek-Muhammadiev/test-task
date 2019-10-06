@@ -7,9 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_user.view.*
 import uz.xsoft.taskapp.R
 import uz.xsoft.taskapp.room.entity.ItemData
-import uz.xsoft.taskapp.room.entity.UserData
-import uz.xsoft.taskapp.ui.calsbacks.ItemCallBack
-import uz.xsoft.taskapp.ui.calsbacks.UserCallBack
+import uz.xsoft.taskapp.ui.callbacks.ItemCallBack
 import uz.xsoft.taskapp.utils.date
 import uz.xsoft.taskapp.utils.inflate
 

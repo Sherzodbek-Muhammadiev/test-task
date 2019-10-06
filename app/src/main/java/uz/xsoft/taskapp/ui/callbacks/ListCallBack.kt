@@ -1,4 +1,4 @@
-package uz.xsoft.taskapp.ui.calsbacks
+package uz.xsoft.taskapp.ui.callbacks
 
 import androidx.recyclerview.widget.DiffUtil
 import uz.xsoft.taskapp.room.entity.ItemData

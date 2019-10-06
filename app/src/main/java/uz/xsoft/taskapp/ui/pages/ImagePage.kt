@@ -20,7 +20,6 @@ class ImagePage : Fragment(R.layout.page_image) {
     private val viewModel: AdvertisementViewModel by factoryViewModel()
     private val adapter = AdvertisementAdapter()
 
-    @SuppressLint("CheckResult")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         viewModel.advertisementLiveData.observe(this, advertisementObserver)
         viewModel.errorLiveData.observe(this, errorObserver)

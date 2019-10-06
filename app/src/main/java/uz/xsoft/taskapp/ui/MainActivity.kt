@@ -1,9 +1,10 @@
-package uz.xsoft.taskapp
+package uz.xsoft.taskapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import kotlinx.android.synthetic.main.activity_main.*
+import uz.xsoft.taskapp.R
 import uz.xsoft.taskapp.ui.adapters.PagerAdapter
 import uz.xsoft.taskapp.ui.viewmodels.MainViewModel
 import uz.xsoft.taskapp.utils.OnPageSelectedListener

@@ -24,9 +24,7 @@ class AppRepositoryImpl(application: Application) : AndroidViewModel(application
     lateinit var advertisementApi: AdvertisementApi
 
     init {
-        advertisementApi =
-            ApiClient.retrofit.create(AdvertisementApi::class.java)//NetworkModule.provideAdvertisementApi(NetworkModule.provideRetrofitInterface())
-//        DaggerViewModelInjector.builder().networkModule(NetworkModule).build().inject(this)
+        DaggerViewModelInjector.builder().networkModule(NetworkModule).build().inject(this)
         loadAdvertisement()
     }
 
