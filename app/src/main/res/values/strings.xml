@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Task app</string>
+    <string name="id">ID:</string>
+</resources>

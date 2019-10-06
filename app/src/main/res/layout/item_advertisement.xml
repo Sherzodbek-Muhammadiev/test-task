@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="0dp"
+        style="@style/Text.Title"
+        android:id="@+id/textTitle"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="72dp"
+        android:id="@+id/imageIcon"
+        android:layout_height="72dp" />
+</LinearLayout>
